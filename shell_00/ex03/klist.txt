@@ -1,0 +1,5 @@
+Credentials cache: API:305F511B-3043-44B5-8689-5A8D54D9F8D0
+        Principal: beligul@42ISTANBUL.COM.TR
+
+  Issued                Expires               Principal
+Nov 22 15:08:30 2021  Nov 23 01:08:25 2021  krbtgt/42ISTANBUL.COM.TR@42ISTANBUL.COM.TR
