@@ -2,6 +2,6 @@
 
 int		main(void)
 {
-	write(1, "0 2 4 6 8 10", 12);
+	write(1, "0246810", 7);
 	return (0);
 }
