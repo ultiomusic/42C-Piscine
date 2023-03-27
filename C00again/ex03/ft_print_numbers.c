@@ -23,3 +23,9 @@ void	ft_print_numbers(void)
 		c++;
 	}
 }
+/*
+int main()
+{
+	ft_print_numbers();
+}
+*/
