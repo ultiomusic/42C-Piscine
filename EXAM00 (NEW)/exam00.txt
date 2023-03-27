@@ -2,3 +2,4 @@ Exam 00: 10 exercices
 0-aff_f or 0-only_z   10points -> 10/100
 1-double_figures or 1-? or 1-?s or 1-? 10points -> 20/100
 2-hello 10points -> 30/100
+9-ft_strcmp -> 90/100
