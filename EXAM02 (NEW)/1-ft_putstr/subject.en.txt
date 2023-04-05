@@ -1,0 +1,10 @@
+Assignment name  : ft_pustr
+Expected files   : ft_putstr.c
+Allowed functions: 
+--------------------------------------------------------------------------------
+
+Write a function that writes a string to standard output (STDOUT).
+
+Your function must be declared as follows:
+
+void    ft_putstr(char *str);

@@ -1,0 +1,11 @@
+Assignment name  : ft_sqrt
+Expected files   : ft_sqrt.c
+Allowed functions: write
+--------------------------------------------------------------------------------
+
+Write a function that outputs the square root of a number. (if the square root
+exists), the function should return 0 if the square root of the number is irrational.
+
+Your function must be declared as follows:
+
+int ft_sqrt(int nb);
