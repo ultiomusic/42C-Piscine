@@ -4,7 +4,7 @@
 int	*ft_range(int min, int max)
 {
 	int		range;
-	int		index;
+	int		i;
 	int		*buffer;
 	int		*d;
 
@@ -14,11 +14,11 @@ int	*ft_range(int min, int max)
 	d = (buffer = malloc(range * sizeof(int)));
 	if (!d)
 		return (0);
-	index = 0;
-	while (index < range)
+	i = 0;
+	while (i < range)
 	{
-		buffer[index] = min + index;
-		index++;
+		buffer[i] = min + i;
+		i++;
 	}
 	return (buffer);
 }
