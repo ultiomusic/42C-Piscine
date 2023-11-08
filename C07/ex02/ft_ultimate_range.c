@@ -3,7 +3,7 @@
 int	ft_ultimate_range(int **range, int min, int max)
 {
 	int		bound;
-	int		index;
+	int		i;
 	int		*buffer;
 	int		*d;
 
@@ -20,11 +20,11 @@ int	ft_ultimate_range(int **range, int min, int max)
 		return (-1);
 	}
 	*range = buffer;
-	index = 0;
-	while (index < bound)
+	i = 0;
+	while (i < bound)
 	{
-		buffer[index] = min + index;
-		index++;
+		buffer[i] = min + i;
+		i++;
 	}
 	return (bound);
 }
