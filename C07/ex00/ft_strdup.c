@@ -1,31 +1,31 @@
 #include <stdlib.h>
-int	ft_str_length(char *str)
+int	ft_strlen(char *str)
 {
-	int	index;
+	int	i;
 
-	index = 0;
-	while (str[index])
-		index++;
-	return (index);
+	i = 0;
+	while (str[i])
+		i++;
+	return (i);
 }
 
 char	*ft_strdup(char *src)
 {
-	int		index;
+	int		i;
 	char	*dest;
-	char	*d;
+	char	*j;
 
-	index = 0;
-	d = ((dest = (char *)malloc(ft_str_length(src) * sizeof(char) + 1)));
-	if (!d)
+	i = 0;
+	j = ((dest = (char *)malloc(ft_str_length(src) * sizeof(char) + 1)));
+	if (!j)
 	{
 		return (0);
 	}
-	while (src[index])
+	while (src[i])
 	{
-		dest[index] = src[index];
-		index++;
+		dest[i] = src[i];
+		i++;
 	}
-	dest[index] = '\0';
+	dest[i] = '\0';
 	return (dest);
 }
